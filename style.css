@@ -6,11 +6,12 @@ body{
     flex-direction: column;
     font-family: Raleway, sans-serif;
     color: #464646;
+    background-color: #F5F5F5;
     
 }
 
 #cabecalho{
-    padding: 16px;
+    padding: 16px 16px 0 16px;
     display: flex;
     width: 100%;
     height: 56px;
@@ -63,8 +64,51 @@ main{
     text-decoration: none;
     color: #464646;
 }
-
+#sobre-mim{
+    background-color: #EAF2FD;
+}
+#sobre-mim p{
+    padding: 0 16px;
+}
 #assinatura{
-    width: 140px;
+    width: 140px;    
+}
+.class-conteudo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+.titulo-section{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    width: 100%;
     
+}
+.conteudo-section{
+    box-sizing: border-box;
+    padding: 16px;
+    height: 118px;
+    width: 48%;
+    border: solid black;
+    margin-bottom: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.conteudo-section label{
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 8px;   
+}
+.conteudo-section img{
+    width: 24px;
 }
