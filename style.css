@@ -7,6 +7,9 @@ body{
     font-family: Raleway, sans-serif;
     color: #464646;
     background-color: #F5F5F5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -66,6 +69,15 @@ main{
 }
 #sobre-mim{
     background-color: #EAF2FD;
+    width: 100%;
+    box-sizing: border-box;
+}
+#sobre-mim h2{
+    text-align: start;
+    padding-top: 16px;
+    padding-left: 16px;
+    width: 90%;
+    
 }
 #sobre-mim p{
     padding: 0 16px;
@@ -95,7 +107,6 @@ main{
     padding: 16px;
     height: 118px;
     width: 48%;
-    border: solid black;
     margin-bottom: 16px;
     background-color: #FFFFFF;
     display: flex;
@@ -112,3 +123,85 @@ main{
 .conteudo-section img{
     width: 24px;
 }
+#formacao{
+    width: 100%;
+    display: flex;
+    background-color:#EAF2FD ;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+#formacao h2{
+    margin: 32px 0;
+    width: 100%;
+}
+#imagem-formacao{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 296px;
+    box-sizing: border-box;
+    height: 118px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#imagem-formacao img{
+    width: 70px;
+}
+#label-formacao{
+    margin-top: 8px;
+    padding-left: 32px;
+    font-weight: 700;
+    font-size: 19px;
+}
+#formacao-span{
+    margin-top: 8px;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 16px;
+}
+#titulo-experiencias{
+    margin-bottom: 16px;
+}
+.conteudo-experiencias{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+#imagem-conteudo{
+    width: 296px;
+    padding-bottom: 16px;
+    margin: auto;
+}
+#titulo-conteudo{
+    padding-bottom: 8px;
+    width: 296px;
+    padding-left: 32px;
+    font-size: 16px;
+    font-weight: 700;
+}
+#subtitulo-conteudo{
+    margin-bottom: 8px;
+    width: 296px;
+    padding-left: 32px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#btn-repositorio{
+    background-color: #E5E5E5;
+    width: 108px;
+    height: 40px;
+    color: #2A7AE4;
+    border: 0.5px solid #2A7AE4;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+#btn-demo{
+    color: #E5E5E5;
+    height: 40px;
+    background-color: #2A7AE4;
+    border: 0.5px solid #2A7AE4;
+    font-size: 16px;   
+}
+
