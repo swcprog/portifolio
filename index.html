@@ -13,30 +13,40 @@
     <div class="centralizador">
         <header id="cabecalho">
             <h2 id ="titulo-cabecalho">Samuel Wesley</h2>
+            <ul id="menu">
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencias">Projetos</a></li>
+            </ul>
             <span>swcprog@gmail.com</span>
 
         </header>
 
-        <main>
+        <main id="main">
             <img id="main-imagem" src="/img/perfil.jpg" alt="imagem de perfil">
-            <h1 id="main-titulo">Olá, me chamo Samuel Wesley, sou um desenvolvedor fullstack em formação.</h1>
-            <span id="main-resumo">Sou um recifense perseguindo um sonho antigo que foi interrompido por força do destino, me tornar um dev.
-                Atualmente estou participando do projeto ONE da Oracle em parceria com a Alura.
-            </span>
-            <ul id="main-links">
-                <li><a href="https://github.com/swcprog/" target="_blank">Github<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853V1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
-                    </svg>
-                    </a></li>
-                <li><a href="https://www.linkedin.com/in/samuel-wesley-3780b0230/" target="_blank">Linkedin<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853V1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
-                    </svg></a></li>
-                    
-                <li><a href="">Currículo<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853V1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
-                    </svg></a></li>
-                                
-            </ul> 
+            <div class="auxiliar-alinhamento">
+                <h1 id="main-titulo">Olá, me chamo Samuel Wesley, sou um desenvolvedor fullstack em formação.</h1>
+                <span id="main-resumo">Sou um recifense perseguindo um sonho antigo que foi interrompido por força do destino, me tornar um dev.
+                    Atualmente estou participando do projeto ONE da Oracle em parceria com a Alura.
+                </span>
+                
+                <ul id="main-links">
+                    <li><a href="https://github.com/swcprog/" target="_blank">Github<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853V1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
+                        </svg>
+                        </a></li>
+                    <li><a href="https://www.linkedin.com/in/samuel-wesley-3780b0230/" target="_blank">Linkedin<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853V1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
+                        </svg></a></li>
+                        
+                    <li><a href="">Currículo<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853V1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
+                        </svg></a></li>
+                                    
+                </ul>
+            </div> 
         </main>
         <section id="sobre-mim">
             <h2 class="titulo-section">Sobre Mim</h2>
@@ -88,65 +98,76 @@
             <div id="imagem-formacao">
                 <img src="/img/alura.svg" alt="alura-logo" id="alura">   
             </div>
-            <label for="alura" id="label-formacao">Alura</label>
+            <label for="alura" id="label-formacao">Fullstack</label>
             <span id="formacao-span">Janeiro 2022 - Atual</span>
 
         </section>
 
         <section id="experiencias">
             <h2 id="titulo-experiencias">Experiências Profissionais</h2>
-            <div class="conteudo-experiencias">
+            <div class="conteudo-experiencias reverse">
                 <img id="imagem-conteudo" src="/img/decodificador.png">
-                <h3 id="titulo-conteudo">Decodificador de Texto</h3>
-                <h3 id="subtitulo-conteudo">Challenge Alura</h3>
-                <a href="https://github.com/swcprog/challenge" target="_blank"><button id="btn-repositorio">Repositório</button></a>
-                <a href="https://swcprog.github.io/challenge/" target="_blank"><button id="btn-demo">Ver Demo</button></a>
+                <div class="subconteudo-experiencias">
+                    <h3 id="titulo-conteudo">Decodificador de Texto</h3>
+                    <h3 id="subtitulo-conteudo">Challenge Alura</h3>
+                    <a href="https://github.com/swcprog/challenge" target="_blank"><button id="btn-repositorio">Repositório</button></a>
+                    <a href="https://swcprog.github.io/challenge/" target="_blank"><button id="btn-demo">Ver Demo</button></a>
+                </div>    
             </div>
 
             <div class="conteudo-experiencias">
                 <img id="imagem-conteudo" src="/img/forca.png">
-                <h3 id="titulo-conteudo">Jogo da Forca</h3>
-                <h3 id="subtitulo-conteudo">Challenge² Alura</h3>
-                <a href="https://github.com/swcprog/challenge2-oracleONE" target="_blank"><button id="btn-repositorio">Repositório</button></a>
-                <a href="https://challenge2oracleone.netlify.app//" target="_blank"><button id="btn-demo">Ver Demo</button></a>
+                <div class="subconteudo-experiencias">
+                    <h3 id="titulo-conteudo">Jogo da Forca</h3>
+                    <h3 id="subtitulo-conteudo">Challenge² Alura</h3>
+                    <a href="https://github.com/swcprog/challenge2-oracleONE" target="_blank"><button id="btn-repositorio">Repositório</button></a>
+                    <a href="https://challenge2oracleone.netlify.app//" target="_blank"><button id="btn-demo">Ver Demo</button></a>
+                </div>
             </div>
 
-            <div class="conteudo-experiencias">
+            <div class="conteudo-experiencias reverse">
                 <img id="imagem-conteudo" src="/img/conversor.png">
-                <h3 id="titulo-conteudo">Conversor de Moedas</h3>
-                <h3 id="subtitulo-conteudo">Projeto didático que construí com meu irmão, consumindo API externa.</h3>
-                <a href="https://github.com/swcprog/conversor-de-moedas" target="_blank"><button id="btn-repositorio">Repositório</button></a>
-                <a href="https://gallant-mahavira-241512.netlify.app/" target="_blank"><button id="btn-demo">Ver Demo</button></a>
+                <div class="subconteudo-experiencias">
+                    <h3 id="titulo-conteudo">Conversor de Moedas</h3>
+                    <h3 id="subtitulo-conteudo">Projeto didático que construí com meu irmão, consumindo API externa.</h3>
+                    <a href="https://github.com/swcprog/conversor-de-moedas" target="_blank"><button id="btn-repositorio">Repositório</button></a>
+                    <a href="https://gallant-mahavira-241512.netlify.app/" target="_blank"><button id="btn-demo">Ver Demo</button></a>
+                </div>
             </div>
         </section>
 
         <section id="contato">
-            <h2 class="titulo-section" id="titulo-contato">Contato</h2>
-            <p id="contato-texto">Quer entrar em contato comigo? Entre contato pelo formulário e entrarei em contato o mais rápido possível.</p>
+            <div id="contato-img">
+                <img src="/img/phone.gif" alt="Imagem contato">
+            </div>
+            <div id="contato-conteudo">
+                <h2 class="titulo-section" id="titulo-contato">Contato</h2>
+                <p id="contato-texto">Quer entrar em contato comigo? Entre contato pelo formulário e entrarei em contato o mais rápido possível.</p>
 
-            <form>
-                <div class="conteudo-form">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome">
-                </div>  
+                <form>
+                    <div class="conteudo-form">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                    </div>  
 
-                <div class="conteudo-form">
-                <label for="email">Email</label>
-                <input type="text" id="email">
-                </div>
+                    <div class="conteudo-form">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                    </div>
 
-                <div class="conteudo-form">
-                <label for="assunto">Assunto</label>
-                <input type="text" id="assunto">
-                </div>
+                    <div class="conteudo-form">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto">
+                    </div>
 
-                <div class="conteudo-form">
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" cols="20" rows="10"></textarea>
-                </div>
+                    <div class="conteudo-form">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" cols="20" rows="10"></textarea>
+                    </div>
 
-                <input type="submit" id="submit" value="Enviar Mensagem">
-            </form>
+                    <input type="submit" id="submit" value="Enviar Mensagem">
+                </form>
+            </div>
         </section>
         <footer><a href="https://github.com/swcprog/" target="_blank">desenvolvido por swcprog ~ 2022</a></footer>
     </div>

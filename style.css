@@ -11,6 +11,9 @@ body{
     
        
 }
+#menu{
+    display: none;
+}
 
 #cabecalho{
     padding: 16px 16px 0 16px;
@@ -74,9 +77,8 @@ main{
 #sobre-mim h2{
     text-align: start;
     padding-top: 16px;
-    padding-left: 16px;
-    
-    
+    width: 100%;
+    padding: 16px; 
 }
 #sobre-mim p{
     padding: 0 16px;
@@ -158,9 +160,7 @@ main{
     margin-left: 32px;
     font-weight: 500;
     font-size: 16px;
-}
-#experiencias{
-    
+    padding-bottom: 16px;
 }
 #titulo-experiencias{
     margin-bottom: 16px;
@@ -237,7 +237,6 @@ main{
 form{
     margin: 32px 32px 0 32px;
 }
-
 form label{
     color: #A2A2A2;
     padding: 3px;
@@ -289,6 +288,132 @@ footer{
 footer a{
     text-decoration: none;
     color: #464646;
+}
+
+@media (min-width: 768px){
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #menu{
+        display: none;
+    }
+    .conteudo-section{
+        width: 224px;
+    }
+    #formacao label, span{
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #formacao-span{
+        margin-left: 0px;
+    }
+    #experiencias{
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo-experiencias{
+        display: flex;
+        flex-direction: column;
+        width: 704px;
+        align-items: flex-start;
+        margin-left: 32px;
+        
+    }
+    #imagem-conteudo{
+        width: 704px;
+        height: 320px;
+    }
+    #btn-repositorio{
+        margin-left: 0;
+    }
+    #titulo-conteudo{
+        padding-left: 0;
+    }
+    #subtitulo-conteudo{
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 1240px){
+    /*.centralizador{
+        margin: 0% 10%;
+    }*/
+
+    #cabecalho, #sobre-mim, #main, #skills, #hobbies, #formacao, #experiencias, #contato{
+        padding: 10px 100px;
+    }
+    #cabecalho{
+        margin-bottom: 52px;
+    }
+    #main-titulo{
+        font-size: 30px;
+        padding-right: 5%;
+    }
+    #main-resumo{
+        font-size: 22px;
+        
+    }
+    #main-imagem{
+        height: 200px;
+        border-radius: 50%;
+    }
+    #main-links{
+        justify-content: space-around;
+    }
+    #menu{
+        display: flex;
+        margin-left: 300px;
+    }
+    #menu li{
+        padding-right: 15px;
+        font-size: 90%;
+    }
+    #menu a{
+        text-decoration: none;
+        color: #464646;
+    }
+    #sobre-mim h2{
+        margin-left: 16px;
+    }
+    #formacao{
+        height: 400px;
+    }
+    #imagem-formacao{
+        height: 70%;
+        width: 70%;
+    }
+    #alura{
+        height: 70%;
+    }
+    .conteudo-experiencias{
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+    .subconteudo-experiencias{
+        width: 35%;
+    }
+    #imagem-conteudo{
+        width: 60%;
+        padding: 20px;
+    }
+    .reverse{
+        flex-direction: row-reverse;
+    }
+    #contato{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #contato-conteudo{
+        width: 50%;
+    }
+    #contato-img{
+        width: 20%;
+    }
 }
 
 
