@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio de Samuel Wesley</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -145,18 +145,18 @@
                 <p id="contato-texto">Quer entrar em contato comigo? Entre contato pelo formulário e entrarei em contato o mais rápido possível.</p>
 
                 <form action="mailto:swcprog@gmail.com" method="post">
-                    <div class="conteudo-form">
-                    <label for="nome">Nome</label>
+                    <div class="conteudo-form" id = "div-nome">
+                    <label for="nome" id="label-nome">Nome</label>
                     <input type="text" id="nome">
                     </div>  
 
-                    <div class="conteudo-form">
-                    <label for="email">Email</label>
+                    <div class="conteudo-form" id="div-email">
+                    <label for="email" id="label-email">Email</label>
                     <input type="text" id="email">
                     </div>
 
-                    <div class="conteudo-form">
-                    <label for="assunto">Assunto</label>
+                    <div class="conteudo-form" id="div-assunto">
+                    <label for="assunto" id="label-assunto">Assunto</label>
                     <input type="text" id="assunto">
                     </div>
 
@@ -171,5 +171,6 @@
         </section>
         <footer><a href="https://github.com/swcprog/" target="_blank">desenvolvido por swcprog ~ 2022</a></footer>
     </div>
+    <script src="/js/form.js"></script>
 </body>
 </html>

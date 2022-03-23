@@ -380,6 +380,10 @@ footer a{
     #sobre-mim h2{
         margin-left: 16px;
     }
+    .conteudo-section:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
     #formacao{
         height: 400px;
     }
@@ -434,4 +438,9 @@ footer a{
 }
 }
 
-
+.error label{
+    color: red;
+}
+.error input{
+    border-bottom: red !important;
+}
