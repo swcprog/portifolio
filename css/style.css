@@ -14,7 +14,9 @@ body{
 #menu{
     display: none;
 }
-
+#menu a:hover{
+    color: #2A7AE4;
+}
 #cabecalho{
     padding: 16px 16px 0 16px;
     display: flex;
@@ -364,6 +366,14 @@ footer a{
     }
     #main-links{
         justify-content: space-around;
+    }
+    #main-links li:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+    #main-links a:hover{
+        color: #2A7AE4;
+        transition: 1s;
     }
     #menu{
         display: flex;
